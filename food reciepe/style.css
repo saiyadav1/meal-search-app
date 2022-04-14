@@ -1,0 +1,129 @@
+
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: centre;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('https://www.milkmaid.in/themes/custom/milkmaid/common/images/listing-banner-desk.jpg');
+    padding: 10px;
+}
+.header>h1,h3{
+    color:white;
+    font-style:italic;
+}
+#inp1{
+    border-radius: 2em;
+    padding: 4px;
+}
+#b1{
+    border-radius: 2em;
+    padding: 4px;
+}
+#dishnotfound{
+    color: red;
+}
+
+#items{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin: 25px;
+padding: 10px;
+/* border: 1px solid #333; */
+}
+img{
+
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+
+}
+#card{
+    /* display: block; */
+    flex-basis: 1 1 90px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #666;
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 1em;
+}
+#card>h1{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.closebutton{
+    position: right-end;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+
+/* meall dish container */
+
+
+#mealsreciepe{
+    background-color: orange;
+   position: fixed;
+   top:50px;
+  color:white;
+   width:90%;
+   height: 90%;
+   overflow-y: scroll; 
+}
+@media screen and (min-width:400px) {
+    #mealsreciepe{
+        left:50px;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:480px) {
+    #mealsreciepe{
+        left:20px;font-size: 30px;
+    }
+    #card{
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+#mealdish-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+
+
+/* meals dish container img */
+#mealdishContainer-pic{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#mealdishContainer-pic>a{
+    color: white;
+    border: 2px solid white;
+    border-radius: 2em;
+    padding: 5px;
+}
+#mealdishContainer-pic>a:hover{
+cursor: pointer;
+}
